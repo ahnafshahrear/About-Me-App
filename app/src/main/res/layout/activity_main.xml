@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:backgroundTint="#1C9A22"
+    android:backgroundTintMode="add"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/name_text"
+        style="@style/name_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/my_name"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/nickname_edit"
+        style="@style/name_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/what_is_your_nickname"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textColorHint="#78909C" />
+
+    <Button
+        android:id="@+id/done_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#E30D61"
+        android:backgroundTintMode="add"
+        android:text="@string/done" />
+
+    <TextView
+        android:id="@+id/nickname_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/star_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/gray_star"
+        app:srcCompat="@android:drawable/btn_star_big_off"
+        tools:ignore="ImageContrastCheck" />
+
+    <ScrollView
+        android:id="@+id/bio_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/info_text"
+            style="@style/name_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/my_info" />
+    </ScrollView>
+
+
+</LinearLayout>

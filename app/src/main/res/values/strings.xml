@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="my_name">Ahnaf Shahrear Khan</string>
+    <string name="my_info">
+        Hello, I am Ahnaf Shahrear Khan. I am from Mymensingh, Bangladesh. Currently, I am studying Computer Science and Engineering,
+        University of Rajshahi. Now, I am learning Android App Development.
+    </string>
+    <string name="gray_star">Gray Star</string>
+    <string name="what_is_your_nickname">What is your ninkname?</string>
+    <string name="done">DONE</string>
+</resources>
